@@ -49,9 +49,10 @@ border: none;
 .image img{
     width: 400px;
     height: 565px;
-    margin-right: 400px;
+    margin-right: 450px;
     margin-top: 100px;
     align-items: center;
+    margin-bottom: 100px;
 
 }
 .Fastfood{
@@ -109,7 +110,8 @@ p{
 .container1{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 100px;
     flex-direction:row;
     margin-top: 100px;
     margin-bottom: 50px;
@@ -132,7 +134,7 @@ p{
 .card {
     flex-direction: column;
     text-align: center;
-    background: white;
+    background:#F8F5F2;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -404,13 +406,12 @@ a:hover{
 
 .card6{
     flex-direction: column;
-    text-align: center;
-    background: white;
+    background: #F8F5F2;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    justify-content: space-around;
+    width: 500px;
+    justify-content: center;
     height: auto;
 
 }
@@ -430,3 +431,42 @@ a:hover{
 .card6 img{
     margin-top: 20px;
 }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #f8f8f8;
+            border-top: 1px solid #ddd;
+        }
+        .footer-column {
+            display: flex;
+            flex-direction: column;
+        }
+        .footer-column a {
+            text-decoration: none;
+            color: black;
+            margin: 5px 0;
+        }
+        .footer-column a:hover {
+            text-decoration: underline;
+        }
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            
+        }
+        .footer-logo span {
+            color: red;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .social-icons {
+            display: flex;
+            gap: 10px;
+        }
+        .social-icons a {
+            text-decoration: none;
+            font-size: 18px;
+        }
